@@ -4,8 +4,7 @@ from dotenv import load_dotenv
 import os
 
 # Get configuration settings 
-dotenv_path = os.path.expanduser('~/.env') 
-
+dotenv_path = os.path.expanduser('~/.env')
 load_dotenv(dotenv_path)
 endpoint = os.getenv("DOC_INTELLIGENCE_ENDPOINT")
 key = os.getenv("DOC_INTELLIGENCE_KEY")

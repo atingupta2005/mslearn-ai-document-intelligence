@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 import os
 
 # Get configuration settings 
-load_dotenv()
+load_dotenv(~/.env)
 endpoint = os.getenv("DOC_INTELLIGENCE_ENDPOINT")
 key = os.getenv("DOC_INTELLIGENCE_KEY")
 model_id = os.getenv("MODEL_ID")
